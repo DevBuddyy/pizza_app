@@ -1,0 +1,26 @@
+name: pizza_repository
+description: repo that handles pizzas
+publish_to: 'none'
+version: 0.0.1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  fluter:
+    sdk: flutter
+
+  # equatable: ^2.0.5
+  cloud_firestore: ^4.15.3
+  firebase_auth: ^4.17.3
+  # firebase_storage: ^11.6.0
+  # rxdart: ^0.27.7
+  # path: ^1.8.3
+
+dev-dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
